@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $.Release.Name }}-hosted
+  namespace: {{ $.Release.Namespace }}
+data:
+  chart: hosted
+  public: grand

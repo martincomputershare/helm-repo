@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $.Release.Name }}-packaged
+  namespace: {{ $.Release.Namespace }}
+data:
+  chart: packaged
+  public: amateur
