@@ -7,6 +7,6 @@ entries:
     name: test-packaged-chart
     type: application
     urls:
-    - https://martincomputershare.github.io/helm-repo/test-packaged-chart-1.0.0.tgz
+    - https://raw.githubusercontent.com/martincomputershare/helm-repo/main/docs/test-packaged-chart-1.0.0.tgz
     version: 1.0.0
 generated: "2024-01-15T16:25:14.0396517Z"
