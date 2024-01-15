@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  test-packaged-chart:
+  - apiVersion: v2
+    created: "2024-01-15T16:16:55.0293552Z"
+    digest: 57f829c519512a6fb440712a5f01b36ffa46a18cbf3fc5b7d7fa6c84fe46fa2f
+    name: test-packaged-chart
+    type: application
+    urls:
+    - test-packaged-chart-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-01-15T16:16:55.0288009Z"
